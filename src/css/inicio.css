@@ -1,0 +1,98 @@
+/* GENERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #d31330; /* Rojo de la página */
+}
+
+/* NAVBAR */
+.navbar {
+    width: 100%;
+    background: #111;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-logo img {
+    width: 40px;
+}
+
+.nav-logo h2 {
+    color: white;
+    font-size: 25px;
+}
+
+/* LINKS */
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* BOTONES */
+.btn-light {
+    padding: 8px 18px;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+.btn-red {
+    background: #d31330;
+    padding: 10px 22px;
+    border-radius: 20px;
+}
+
+/* ICONO HAMBURGUESA */
+.hamburger {
+    width: 30px;
+    cursor: pointer;
+}
+
+.hamburger span {
+    display: block;
+    width: 100%;
+    height: 4px;
+    background: white;
+    margin: 4px 0;
+    border-radius: 5px;
+}
+
+/* HERO */
+.hero {
+    height: 90vh;
+    background: url("https://cdn.prod.website-files.com/6423e8cf97045d0ac6e9ffb9/6565d9491a89f4b7b7915b3e_tipos%20de%20restaurante.webp") center/cover no-repeat;
+    position: relative;
+}
+
+/* TEXTO DEL HERO */
+.hero-text {
+    position: absolute;
+    left: 40px;
+    bottom: 40px;
+}
+
+.hero-text h1 {
+    color: #f6e5cc;
+    font-size: 8vw;
+    font-weight: 900;
+    line-height: 0.9;
+}
